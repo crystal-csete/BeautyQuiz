@@ -5,7 +5,7 @@ import BeautyQuiz from "./components/BeautyQuiz";
 
 function App() {
   return (
-    <div className='App'>
+    <div className='app-container'>
       <BeautyQuiz />
     </div>
   );

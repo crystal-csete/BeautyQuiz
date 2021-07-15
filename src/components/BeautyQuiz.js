@@ -29,7 +29,7 @@ const BeautyQuiz = () => {
       )}
       {!beautyState.showResults && (
         <div>
-          <div className='score'>
+          <div className='title'>
             Question {beautyState.currentQIndex + 1} /{" "}
             {beautyState.questions.length}
           </div>

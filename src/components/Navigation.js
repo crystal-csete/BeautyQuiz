@@ -12,6 +12,12 @@ const Navigation = () => {
         <a className='navbar-brand' href='/beautyquiz'>
           Beauty Quiz
         </a>
+        <a className='navbar-brand' href='/hairbleachingtips'>
+          Bleaching Tips
+        </a>
+        <a className='navbar-brand' href='/haircolortips'>
+          Coloring Tips
+        </a>
         <form className='d-flex'>
           <input
             className='form-control me-2'

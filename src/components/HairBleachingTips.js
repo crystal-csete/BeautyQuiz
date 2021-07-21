@@ -4,7 +4,7 @@ import React from "react";
 
 const HairTips = () => {
   return (
-    <div className='container'>
+    <div className='container hairbleach'>
       <div className='jumbotron'>
         <h1>Hair tips page</h1>
       </div>

@@ -157,16 +157,40 @@ img,
   height: 100%;
 }
 
-.hairColor__text {
+figcaption {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(219, 18, 52);
+  margin-bottom: 1rem;
+}
+
+.hairColor__text > p {
+  font-size: 1.3rem;
+}
+
+.hairColorDrop {
+  margin: 1rem;
 }
 
 .colorJumbo {
-  border: 1px solid black;
   background-image: url(./images/multi_hair.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 30rem;
+  border-radius: 10px;
+}
+
+.pinkColor {
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+}
+
+.lavendarColor {
+  width: 20%;
+  height: 20%;
+  border-radius: 10px;
 }
 /* COMPONENT: HairBleachingTips styles */
 
@@ -176,4 +200,14 @@ img,
   min-width: 90vw;
   min-height: 100vh;
   height: 100%;
+}
+
+.bleachJumbo {
+  background-image: url(./images/blonde_two.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30rem;
+  color: #fff;
+  border-radius: 10px;
 }

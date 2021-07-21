@@ -5,7 +5,7 @@ import blonde_one from "../images/blonde_one.jpg";
 
 const Home = () => {
   return (
-    <div className='container'>
+    <div className='container home'>
       <div className='jumbotron'>
         <h1>Hair Love</h1>
         <p>

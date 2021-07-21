@@ -127,6 +127,14 @@ body {
 
 /* COMPONENT: Home styles */
 
+.home {
+  padding: 1rem;
+  background-color: rgb(245, 234, 234);
+  min-width: 90vw;
+  min-height: 100vh;
+  height: 100%;
+}
+
 p {
   font-size: 1rem;
   width: 80%;
@@ -137,4 +145,35 @@ img,
 .blondeOne {
   width: 65%;
   height: 65%;
+}
+
+/* COMPONENT: HairColorTips styles */
+
+.haircolor {
+  padding: 1rem;
+  background-color: rgb(245, 234, 234);
+  min-width: 90vw;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.hairColor__text {
+}
+
+.colorJumbo {
+  border: 1px solid black;
+  background-image: url(./images/multi_hair.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30rem;
+}
+/* COMPONENT: HairBleachingTips styles */
+
+.hairbleach {
+  padding: 1rem;
+  background-color: rgb(245, 234, 234);
+  min-width: 90vw;
+  min-height: 100vh;
+  height: 100%;
 }

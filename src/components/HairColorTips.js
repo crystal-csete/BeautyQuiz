@@ -11,7 +11,7 @@ const HairColorTips = () => {
         <h1>Hair Color</h1>
       </div>
 
-      <div class='dropdown'>
+      <div class='dropdown hairColorDrop'>
         <button
           className='btn btn-secondary dropdown-toggle'
           type='button'
@@ -49,7 +49,7 @@ const HairColorTips = () => {
         </ul>
       </div>
       <div className='hairColor__text'>
-        <p>Hair coloring tips for DIY hair.</p>
+        <h3>Hair coloring tips for DIY hair.</h3>
         <p>
           Finding great coverage for your hair can be tricky. You usually need
           to lighten your hair by bleaching it first. Once that is done, you

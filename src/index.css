@@ -171,6 +171,13 @@ figcaption:nth-of-type(2) {
   margin-bottom: 1rem;
 }
 
+figcaption:nth-of-type(3) {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(219, 60, 32);
+  margin-bottom: 1rem;
+}
+
 .hairColor__text {
   width: 100%;
   display: flex;
@@ -211,6 +218,12 @@ figcaption:nth-of-type(2) {
 .lavendarColor {
   width: 20%;
   height: 20%;
+  border-radius: 10px;
+}
+
+.hennaColor {
+  width: 30%;
+  height: 30%;
   border-radius: 10px;
 }
 

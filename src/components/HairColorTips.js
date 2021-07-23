@@ -3,6 +3,7 @@
 import React from "react";
 import lavendar from "../images/lavendar_hair.jpg";
 import pink from "../images/pink_hair.jpg";
+import henna from "../images/henna_hair.jpg";
 
 const HairColorTips = () => {
   return (
@@ -140,6 +141,8 @@ const HairColorTips = () => {
             of days, to see if you like it or not.
           </p>
         </div>
+        <img className='hennaColor' src={henna} alt='women with dark hair' />
+        <figcaption>Bright and Natural Color</figcaption>
         <div className='hairColor__text'>
           <h3 id='henna'>Henna</h3>
           <p>

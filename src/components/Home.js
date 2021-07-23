@@ -27,7 +27,7 @@ const Home = () => {
           class='rounded'
           alt='model with blonde hair'
         />
-        <figcaption>Beautiful hair!</figcaption>
+        <figcaption style={{ color: "black" }}>Beautiful hair!</figcaption>
       </div>
       <div>
         <p>

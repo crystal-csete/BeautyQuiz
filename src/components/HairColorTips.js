@@ -11,7 +11,7 @@ const HairColorTips = () => {
         <h1>Hair Color</h1>
       </div>
 
-      <div class='dropdown hairColorDrop'>
+      <div className='dropdown hairColorDrop'>
         <button
           className='btn btn-secondary dropdown-toggle'
           type='button'
@@ -75,31 +75,81 @@ const HairColorTips = () => {
           differently. Not to mention, not all types of hair color will cover
           grey hair.
         </p>
+
         <img
           className='lavendarColor'
           src={lavendar}
           alt='Women with lavendar hair color'
         />
         <figcaption>Thinking about her awesome new colored hair!</figcaption>
-        <div>
+        <iframe
+          src='https://www.youtube.com/embed/LZ-S-tmHBlc'
+          title='YouTube video player'
+          frameBorder='0'
+          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+          allowFullScreen></iframe>
+        <div className='hairColor__text'>
           <h3 id='semi'>Semi-Permanent</h3>
-          <p>some info about semi permanent hair color</p>
+          <p>
+            Semi-Permanent hair color is a short term solution to change your
+            hair color. This type of hair dye COATS the surface of your hair
+            strands, living <strong>on</strong> the surface of your hair. It
+            doesn't permanently change your hair color or the texture. This type
+            contains no ammonia. You do <strong>not</strong> have to mix with
+            developer to use it. For better gray coverage, use Demi-Permanent or
+            Permanent hair color. It will last about 4-12 shampoos.
+          </p>
         </div>
-        <div>
+
+        <div className='hairColor__text'>
           <h3 id='demi'>Demi-Permanent</h3>
-          <p>some info about demi permanent hair color</p>
+          <p>
+            Demi-Permanent hair color is also a short term solution to change
+            your hair color. This type of hair dye will last from 12-24
+            shampoos. It has a low-ammonia formula, and is mixed with a
+            low-volume developer, to lightly open the cuticle of the hair. It
+            will not fully cover gray hairs, and is used for changing the{" "}
+            <strong>tone</strong> of your hair color.
+          </p>
         </div>
-        <div>
+        <div className='hairColor__text'>
           <h3 id='permanent'>Permanent</h3>
-          <p>some info about permanent hair color</p>
+          <p>
+            Permanent hair color actually open the hair cuticle, and penetrate
+            the hair strands to deposit color. It will cover your gray hairs,
+            and will permanently change the texture and color of your hair
+            because it chemically alters the hair structure. If you have never
+            dyed your hair, it can lighten the hair 1-5 levels.
+          </p>
         </div>
-        <div>
+        <iframe
+          src='https://www.youtube.com/embed/SQyCXqrpU88'
+          title='YouTube video player'
+          frameBorder='0'
+          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+          allowFullScreen></iframe>
+        <div className='hairColor__text'>
           <h3 id='temp'>Temporary</h3>
-          <p>some info about Temporary hair color</p>
+          <p>
+            Temporary hair color can come in many forms. They can range from
+            gels to conditioning masks. These types fade after a couple of
+            shampoos. This would be a good option for a seasonal option, like
+            halloween, or a game, like when you want to support your football
+            team with there team colors. This would also work if you are not
+            sure what color to go with. You can try it out a color for a couple
+            of days, to see if you like it or not.
+          </p>
         </div>
-        <div>
+        <div className='hairColor__text'>
           <h3 id='henna'>Henna</h3>
-          <p>some info about Henna hair color</p>
+          <p>
+            Henna hair color is promoted as a more healthy alternative for your
+            hair. It doesn't have the synthetic chemicals like traditional hair
+            dye, like ammonia, PPD, and metallic salt. It may be good for your
+            scalp and protects against everyday pollution. Grays will be
+            naturally highlighted, but not entirely covered. The more you use
+            Henna, the color will settle and deepen in shade.
+          </p>
         </div>
       </div>
     </div>

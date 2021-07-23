@@ -7,6 +7,7 @@ import BeautyQuiz from "./components/BeautyQuiz";
 import HairColorTips from "./components/HairColorTips";
 import HairBleachingTips from "./components/HairBleachingTips";
 import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/hairbleachingtips'>
           <HairBleachingTips />
         </Route>
+        <Footer />
       </div>
     </Router>
   );

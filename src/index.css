@@ -152,7 +152,7 @@ img,
 .haircolor {
   padding: 1rem;
   background-color: rgb(245, 234, 234);
-  min-width: 50vw;
+  min-width: 90vw;
   min-height: 100vh;
   height: 100%;
 }
@@ -172,7 +172,7 @@ figcaption:nth-of-type(2) {
 }
 
 .hairColor__text {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -183,8 +183,9 @@ figcaption:nth-of-type(2) {
 
 .hairColor__text > p {
   font-size: 1.3rem;
-  margin: 1rem;
+  margin: 1rem 0rem 3rem 0rem;
   line-height: 2;
+  width: 60%;
 }
 
 .hairColorDrop {
@@ -238,3 +239,5 @@ iframe {
   color: #fff;
   border-radius: 10px;
 }
+
+/* COMPONENT: Footer / Navigation styles */

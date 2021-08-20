@@ -34,6 +34,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .results {
@@ -62,6 +63,7 @@ body {
   background-color: rgb(211, 110, 157);
   margin: 0rem 0rem 0rem 0rem;
   cursor: pointer;
+  position: absolute;
 }
 
 .title {
@@ -136,7 +138,7 @@ body {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.3rem;
   width: 80%;
   text-align: left;
 }
@@ -157,7 +159,7 @@ img,
   height: 100%;
 }
 
-/* figcaption on home page is in the js file */
+/* figcaption styles on home page is in the js file */
 figcaption:nth-of-type(1) {
   font-size: 1rem;
   font-weight: 700;
@@ -175,6 +177,20 @@ figcaption:nth-of-type(3) {
   font-size: 1rem;
   font-weight: 700;
   color: rgb(219, 60, 32);
+  margin-bottom: 1rem;
+}
+
+figcaption:nth-of-type(4) {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(212, 117, 40);
+  margin-bottom: 1rem;
+}
+
+figcaption:nth-of-type(5) {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(150, 32, 219);
   margin-bottom: 1rem;
 }
 
@@ -251,6 +267,66 @@ iframe {
   height: 30rem;
   color: #fff;
   border-radius: 10px;
+}
+
+.hairBleach__text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.hairBleach__text > p {
+  font-size: 1.3rem;
+  margin: 1rem 0rem 3rem 0rem;
+  line-height: 2;
+  width: 60%;
+}
+
+.bleachTwo {
+  width: 40%;
+  height: 40%;
+  border-radius: 10px;
+}
+
+.bleachThree {
+  width: 40%;
+  height: 40%;
+  border-radius: 10px;
+}
+
+.sink {
+  width: 40%;
+  height: 40%;
+  border-radius: 10px;
+}
+
+.gloves {
+  width: 40%;
+  height: 40%;
+  border-radius: 10px;
+}
+
+.parting {
+  width: 30%;
+  height: 30%;
+  border-radius: 10px;
+}
+
+ol {
+  background-color: rgba(146, 132, 138, 0.5);
+  border-radius: 10px;
+}
+
+li {
+  font-size: 1.3rem;
+  color: rgb(59, 56, 56);
+  text-align: left;
+  line-height: 2;
+  padding: 0.3rem;
 }
 
 /* COMPONENT: Footer / Navigation styles */

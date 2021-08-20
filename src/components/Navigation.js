@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <nav className='navbar navbar-light'>
       <div className='container-fluid'>
-        <a className='navbar-brand' href='/'>
+        <a className='navbar-brand' aria-current='page' href='/'>
           Home
         </a>
         <a className='navbar-brand' href='/beautyquiz'>
